@@ -1,5 +1,4 @@
 <!DOCTYPE html >
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <title>GuessGame - Login</title >
@@ -8,10 +7,10 @@
 
 <?php 
 session_save_path('sess');
-session_start(); // must be first thing in the php file
+session_start(); 
 ?>
 
-<h1> Login to GuessGame </h1>
+<h1> Welcome to ToDo </h1>
 <form action="login.php" method="post">
   <p> Enter username and password: </p>
   <input type="text" name="username"> 
